@@ -26,16 +26,17 @@ let employeesArray = []
     for(let i=0; i<employeesArray.length;i++){
       const obj=employeesArray[i]
       totalSalary += obj.salary
-      // console.log(averageSalary)
+
     }
     return totalSalary/employeesArray.length
     }
     const averageSalary = displayAverageSalary(employeesArray)
-    // console.log(averageSalary)
-    alert(`The sum total is:${averageSalary}`);
-
+ 
+    alert(`The average salary is:${averageSalary}`);
+    console.log(averageSalary)
 
 // Select a random employee
+
 const getRandomEmployee = function(employeesArray) {
   // TODO: Select and display a random employee
 }
